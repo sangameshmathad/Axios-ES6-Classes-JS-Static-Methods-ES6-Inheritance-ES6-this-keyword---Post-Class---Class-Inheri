@@ -1,5 +1,5 @@
 // declare class
-class Shape{
+export class Shape{
   drawShape(){
   console.log("shape")
   }
