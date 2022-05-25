@@ -1,13 +1,20 @@
-// declare class
-export class Shape{
-  drawShape(){
-  console.log("shape")
-  }
-  calculateArea(){
-  console.log("Area")
-  }
-  
+class Shape {
+    drawShape(radius, color){
+    this.radius = radius;
+    this.color = color;
+    }
+    calculateArea() {
+        return `
+      Radius: ${this.radius}
+    `;
+	}
+    color(){
+        return `
+      Color: ${this.color}
+    `;
+
+    }
+
 }
 
-
-// export class using module.exports
+module.exports = user;
