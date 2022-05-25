@@ -2,8 +2,8 @@
 import Shape from ./shape.js;
 // declare class
 export class Circle extends Shape{
-  calculateArea(){
-    console.log("area");
+  calculateArea(radius){
+   console.log("Area is" + 3.14 * radius * radius);
   }
   color(){
   console.log("color");
